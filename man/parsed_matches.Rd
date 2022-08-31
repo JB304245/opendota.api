@@ -5,17 +5,20 @@
 \title{parsed_matches}
 \usage{
 parsed_matches(
+  less_than_match_id = NULL,
+  api_key = NULL,
   base_url = "https://api.opendota.com/api/",
-  path = "parsedMatches/",
-  less_than_match_id = NULL
+  path = "parsedMatches/"
 )
 }
 \arguments{
+\item{less_than_match_id}{less_than_match_id}
+
+\item{api_key}{optional API key}
+
 \item{base_url}{base_url}
 
 \item{path}{path}
-
-\item{less_than_match_id}{less_than_match_id}
 }
 \value{
 an integer vector

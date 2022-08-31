@@ -6,12 +6,15 @@
 \usage{
 pro_matches(
   less_than_match_id = NULL,
+  api_key = NULL,
   base_url = "https://api.opendota.com/api/",
   path = "proMatches/"
 )
 }
 \arguments{
 \item{less_than_match_id}{less_than_match_id}
+
+\item{api_key}{optional API key}
 
 \item{base_url}{base_url}
 

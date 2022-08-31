@@ -5,11 +5,14 @@
 \title{players_by_rank}
 \usage{
 players_by_rank(
+  api_key = NULL,
   base_url = "https://api.opendota.com/api/",
   path = "playersByRank/"
 )
 }
 \arguments{
+\item{api_key}{optional API key}
+
 \item{base_url}{base_url}
 
 \item{path}{path}
