@@ -1,5 +1,8 @@
 #' players_by_rank
 #'
+#' @param base_url base_url
+#' @param path path
+#'
 #' @return A data.table
 #' @export
 #'

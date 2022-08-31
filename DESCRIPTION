@@ -2,7 +2,10 @@ Package: opendota.api
 Type: Package
 Title: Interface for the opendota.com API
 Version: 0.1.0
-Author: Jonathan Belke
+Authors@R: 
+    c(
+    person("Jonathan", "Belke", , "jonathan.belke314@gmail.com", role = c("aut", "cre", "cph"))
+    )
 Maintainer: Jonathan Belke <jonathan.belke314@gmail.com>
 Description: Interface for the opendota.com API.
 License: GPL (>= 3)

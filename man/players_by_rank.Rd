@@ -9,6 +9,11 @@ players_by_rank(
   path = "playersByRank/"
 )
 }
+\arguments{
+\item{base_url}{base_url}
+
+\item{path}{path}
+}
 \value{
 A data.table
 }

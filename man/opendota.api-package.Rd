@@ -8,4 +8,8 @@
 \description{
 Interface for the opendota.com API.
 }
+\author{
+\strong{Maintainer}: Jonathan Belke \email{jonathan.belke314@gmail.com} [copyright holder]
+
+}
 \keyword{internal}
